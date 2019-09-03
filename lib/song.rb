@@ -1,18 +1,18 @@
 class Song 
   attr_accessor :name, :artist, :genre
-  def name 
+  def name=name
     @name = name 
   end 
   def name
     @name 
   end 
-  def artist
+  def artist=artist
     @artist = artist 
   end 
   def artist
     @artist
   end 
-  def genre
+  def genre=genre
     @genre = genre 
   end 
   def genre
